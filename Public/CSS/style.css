@@ -90,94 +90,6 @@ li>a:hover {
 }
 
 
-/* The sticky class is added to the navbar with JS on window scrolling*/
-
-
-/* .sticky { */
-
-
-/* !important overrides the pre-existing bootstrap */
-
-
-/* position: fixed !important;
-    top: 0;
-    z-index: 100;
-    width: 80%; */
-
-
-/* } */
-
-
-/**************** Adding the Hamburger Menu in mobile view ****************
-
-.xIcon {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .ham {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        top: 0;
-        height: 49px;
-    }
-    .ham {
-        position: fixed;
-        /* keep the hamburger button above everything 
-        z-index: 1000;
-        /* z-index keeps the button above other html ellements 
-        top: 0;
-        right: 22px;
-        width: 3rem;
-        height: 49px;
-        border: 1px #4CAF50;
-        background: #4CAF50;
-        color: #fff;
-        cursor: pointer;
-    }
-    .navbar-nav {
-        position: fixed;
-        margin: 0;
-        position: relative;
-        /* float: right; 
-        width: 50%;
-        height: auto;
-        background: #4CAF50;
-        color: #fff;
-        /* moves up 100% above screen 
-        transform: translateY(-100%);
-        /* transition: transform 0.2s; 
-        list-style: none;
-        padding-top: 4rem;
-    }
-    .showMenu {
-        transform: translateY(0);
-    }
-    li {
-        padding: 1rem 0;
-    }
-    .nav-link {
-        display: inline;
-        font-size: 2rem;
-        color: white;
-        text-decoration: none;
-    }
-    .nav-link:hover {
-        text-decoration: underline;
-    }
-    .showNav {
-        transform: translateY(0);
-    }
-}
-
-
-/**************************** End of hamburger styling *********************/
-
-
 /* Hamburger */
 
 @media (min-width: 768px) {
@@ -279,23 +191,25 @@ li>a:hover {
 }
 
 
-}
-
 /* end of hamburger */
 
+
 /***************** Gallery section ********************/
+
 .heading {
     background-color: #F6F6F7;
     border: 1px solid #707070;
     text-align: center;
     margin: 30px 0 10px;
 }
+
 .heading>h2 {
     font-size: 3rem;
     font-weight: normal;
     font-family: serif;
     color: #4CAF50;
 }
+
 .heading>h2::before,
 .heading>h2::after {
     display: inline-block;
@@ -305,17 +219,19 @@ li>a:hover {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .heading>p {
     font-style: italic;
     color: #4CAF50;
     text-align: center;
 }
+
 .carousel-item>img {
     /* margin: auto; */
-    
     width: 100%;
     height: 75vh;
 }
+
 @media (max-width: 768px) {
     .carousel-item>img {
         width: 100%;
@@ -323,15 +239,19 @@ li>a:hover {
     }
 }
 
+
 /***************** About section ********************/
+
 .about {
     margin-top: 50px;
 }
+
 .about>h2 {
     font-size: 3rem;
     font-weight: normal;
     color: #4CAF50;
 }
+
 .about>h2::before,
 .about>h2::after {
     display: inline-block;
@@ -341,6 +261,7 @@ li>a:hover {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .cta {
     background-color: red;
     color: white;
@@ -348,19 +269,24 @@ li>a:hover {
     margin-top: 20px;
 }
 
+
 /***********************Testimonials*******************/
+
 .hero {
     padding-top: 50px;
 }
+
 .testimonials {
     background-color: #F6F6F7;
     padding-bottom: 50px;
 }
+
 .testimonials>h2 {
     font-size: 3rem;
     font-weight: normal;
     color: #4CAF50;
 }
+
 .testimonials>h2::before,
 .testimonials>h2::after {
     display: inline-block;
@@ -370,47 +296,58 @@ li>a:hover {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .carousel-item {
     background-color: #fff;
 }
+
 .customer {
     text-align: center;
 }
+
 .customer>p {
     color: #4CAF50;
 }
+
 .item1 {
     padding-left: 20px;
 }
+
 .item1,
 .item,
 .customer>p {
     font-style: italic;
 }
 
+
 /* ***************newsletter****************** */
+
 .newsletter {
     background-color: #4CAF50;
     color: #fff;
     margin-top: 50px;
 }
-.newsletter>h2 {}
+
 .newsletter>form>button {
     margin-bottom: 20px;
     background-color: tomato;
 }
 
+
 /***********************Contact us*******************/
+
 .contact-us {
     margin-top: 20px;
     padding: 20px 0 20px;
     background-color: #F6F6F7;
 }
+
 .contact-us>h2 {
     font-size: 3rem;
     font-weight: normal;
     color: #4CAF50;
 }
+
 .contact-us>h2::before,
 .contact-us>h2::after {
     display: inline-block;
@@ -420,17 +357,22 @@ li>a:hover {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .contact-us>.form-group {
     padding: 20px 0 20px;
 }
+
 .contact-us>.form-group>.btn {
     background-color: #4CAF50;
 }
+
 .location {
     float: right;
 }
 
+
 /***********************footer*******************/
+
 footer {
     margin-top: 50px;
     padding: 20px 0 20px;
@@ -438,36 +380,45 @@ footer {
     text-align: center;
 }
 
+
 /************************Room Booking*******************/
+
 .lead-container {
     background-color: #4CAF50;
     height: 200px;
     margin-top: 20px;
 }
+
 .lead-container>h1,
 h2 {
     text-align: center;
     padding: 20px 0 20px;
     color: #fff;
 }
+
 .lead-container>h1>a {
     color: #fff;
     text-decoration: none;
     font-family: serif;
 }
+
 .lead-container>h1>a:hover {
     font-weight: bold;
 }
+
 .lead-container>h2>i {
     padding-right: 15px;
 }
 
+
 /* .form-header>h4 {
     color: #fff;
 } */
+
 .form-group {
     padding: 20px 0 20px;
 }
+
 i {
     visibility: hidden;
     position: absolute;
@@ -476,14 +427,11 @@ i {
     /* color: gray; */
 }
 
-/* input[type=text] {
-    position: relative;
-    left: 33px;
-} */
 .tagline {
     font-size: 1rem;
     padding: 20px 0 20px;
 }
+
 .tagline::before,
 .tagline::after {
     display: inline-block;
@@ -493,19 +441,24 @@ i {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .form-footer {
     padding: 20px 0 40px;
 }
+
 .form-footer>button:nth-child(1) {
     margin-right: 20px;
     background-color: #4CAF50;
 }
+
 .form-footer>button:nth-child(2) {
     background-color: tomato;
     color: #fff;
 }
 
+
 /* email validation */
+
 #text {
     display: block;
     color: #000;
